@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        parle: 'url("/bg-pattern.svg")',
+      },
       colors: {
         lightText1: "#636363",
         background: "var(--background)",
