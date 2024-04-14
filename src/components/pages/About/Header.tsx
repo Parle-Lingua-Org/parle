@@ -1,17 +1,12 @@
 import Layout from "@/components/Layout";
+import PatternHeader from "@/components/PatternHeader";
 import VideoComponent from "@/components/icons/VideoIcon";
 import React from "react";
 
 const AboutHeader = () => {
   return (
     <div>
-      <div className=" bg-parle bg-blend-multiply  bg-no-repeat bg-cover bg-top ">
-        <div className=" flex flex-row jusify-center items-center w-full bg-[#f5f6fa]/85 py-16 lg:py-28">
-          <h1 className=" w-full text-center font-semibold text-primary text-3xl sm:text-6xl lg:text-[82px] ">
-            About Us
-          </h1>
-        </div>
-      </div>
+      <PatternHeader title="About Us" />
       <div className=" relative bg-gradient-to-br from-[#2F53EB14] from-5% via-white to-[#2F53EB14] to-90% z-30 ">
         <Layout>
           <div className=" grid grid-cols-1 lg:grid-cols-2 max-lg:place-items-center gap-10 py-8 ">
