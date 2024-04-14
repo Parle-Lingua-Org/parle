@@ -8,9 +8,7 @@ const Layout = ({
   className?: string;
 }) => {
   return (
-    <div
-      className={`w-full max-w-[1240px] px-4 lg:px-2  mx-auto ${className} `}
-    >
+    <div className={`w-full max-w-[1240px] px-4 mx-auto ${className} `}>
       {children}
     </div>
   );
