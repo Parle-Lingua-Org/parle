@@ -1,4 +1,5 @@
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
 const Layout = ({
   children,
@@ -8,7 +9,7 @@ const Layout = ({
   className?: string;
 }) => {
   return (
-    <div className={`w-full max-w-[1240px] px-4 mx-auto ${className} `}>
+    <div className={twMerge(`w-full max-w-[1240px] px-4 mx-auto ${className}`)}>
       {children}
     </div>
   );

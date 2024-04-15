@@ -1,3 +1,5 @@
+@import url("./fonts.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -72,5 +74,31 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .app__flex-col {
+    @apply flex flex-col justify-center items-center;
+  }
+
+  .app__flex-row {
+    @apply flex justify-center items-center;
+  }
+
+  .scale-fast {
+    @apply transition duration-300 hover:scale-105;
+  }
+
+  .font-dm-sans {
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .font-sf-pro {
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  header {
+    @apply font-sf-pro;
   }
 }
