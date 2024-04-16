@@ -31,7 +31,7 @@ const Header = () => {
               unique preferences.
             </p>
           </div>
-          <div className="w-[40%] h-full flex flex-col justify-center items-center gap-5">
+          <div className="w-[40%] h-full flex flex-col justify-center items-center gap-5 relative">
             <Image
               src={Assets.heroImg1}
               alt="hero-image-1"
@@ -59,7 +59,7 @@ const Header = () => {
         </Layout>
       </div>
 
-      <Layout className="w-full flex flex-col h-full justify-center items-center px-10 pb-10">
+      <Layout className="w-full flex flex-col h-full justify-center items-center  pb-10">
         <div className="w-full -mt-10 relative">
           <VideoComponentMain className="w-full" />
         </div>

@@ -1,3 +1,4 @@
+"use client";
 import Layout from "@/components/Layout";
 import Assets from "@/constants/assets.constant";
 import Image from "next/image";

@@ -18,7 +18,7 @@ const CountryDropDownIcon = () => {
           height="54"
           rx="27"
           stroke="#3F4E93"
-          stroke-width="2"
+          strokeWidth="2"
           shape-rendering="crispEdges"
         />
         <g clip-path="url(#clip0_172_235)">
@@ -41,7 +41,7 @@ const CountryDropDownIcon = () => {
         <path
           d="M135.94 41.7125L131.05 46.6025C130.472 47.18 129.527 47.18 128.95 46.6025L124.06 41.7125"
           stroke="#3F4E93"
-          stroke-width="1.5"
+          strokeWidth="1.5"
           stroke-miterlimit="10"
           stroke-linecap="round"
           stroke-linejoin="round"

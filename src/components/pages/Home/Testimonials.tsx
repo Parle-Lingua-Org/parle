@@ -1,3 +1,4 @@
+"use client";
 import { BookASessionButton } from "@/components/Buttons";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
