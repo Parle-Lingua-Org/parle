@@ -1,4 +1,4 @@
-import { Layout } from "lucide-react";
+import Layout from "@/components/Layout";
 import React from "react";
 
 const WhyUs = () => {
