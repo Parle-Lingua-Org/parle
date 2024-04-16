@@ -3,8 +3,10 @@ import jemima from "@/assets/images/jemima.png";
 import heroImg1 from "@/assets/images/hero-image-1.svg";
 import heroImg2 from "@/assets/images/hero-image-2.svg";
 import heroImg3 from "@/assets/images/hero-image-3.svg";
+import brand from "@/assets/images/brand.svg";
 
 const Assets = {
+  brand,
   bgPattern,
   jemima,
   heroImg1,

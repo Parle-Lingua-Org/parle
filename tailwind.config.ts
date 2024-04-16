@@ -23,6 +23,10 @@ const config = {
       },
       colors: {
         lightText1: "#636363",
+        purple1: "#3F4E93",
+        purple1Light: "#3F4E9399",
+        purple15: "#3F4E9326",
+        red1: "#A0302C",
         background: "var(--background)",
         foreground: "var(--foreground)",
         border: "hsl(var(--border))",

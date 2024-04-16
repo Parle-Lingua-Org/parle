@@ -101,4 +101,18 @@
   header {
     @apply font-sf-pro;
   }
+
+  .nav {
+    .nav-link {
+      @apply leading-[40px] opacity-80 transition duration-300 p-0 m-0 h-[30px] text-lg text-purple1Light;
+
+      &.active {
+        @apply opacity-100 border-b-purple1 border-b-[1px] text-purple1;
+      }
+
+      &.hover:not(&.active) {
+        @apply border-b-purple1 border-b-[1px] text-purple1 opacity-70;
+      }
+    }
+  }
 }
