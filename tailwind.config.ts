@@ -36,6 +36,7 @@ const config = {
         red1: "#A0302C",
         lightText3: "#E4DDDD",
         lightText4: "#514F6E",
+        lightText5: "#6F6C90",
         background: "var(--background)",
         foreground: "var(--foreground)",
         border: "hsl(var(--border))",

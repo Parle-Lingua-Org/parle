@@ -10,7 +10,7 @@ const BookASession = () => {
       </p>
       <Button
         type="button"
-        className=" shadow-xl bg-secondary text-white py-2.5  px-8 rounded-full "
+        className=" shadow-xl bg-secondary text-white py-2.5 px-8 rounded-full "
         style={{
           boxShadow: "0px 4px 20px 0px rgba(32, 170, 144, 0.24)",
         }}

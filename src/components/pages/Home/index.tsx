@@ -2,14 +2,14 @@
 import "./Home.scss";
 import Header from "./Header";
 import WhyUs from "./WhyUs";
-import Testomonials from "./Testomonials";
+import Testimonials from "./Testimonials";
 
 const HomePage = () => {
   return (
-    <div className="w-full relative">
+    <div className="w-full relative ">
       <Header />
       <WhyUs />
-      <Testomonials />
+      <Testimonials />
     </div>
   );
 };
