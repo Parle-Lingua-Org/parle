@@ -4,6 +4,7 @@ import heroImg1 from "@/assets/images/hero-image-1.svg";
 import heroImg2 from "@/assets/images/hero-image-2.svg";
 import heroImg3 from "@/assets/images/hero-image-3.svg";
 import brand from "@/assets/images/brand.svg";
+import avater1 from "@/assets/images/avater1.svg";
 
 const Assets = {
   brand,
@@ -12,6 +13,7 @@ const Assets = {
   heroImg1,
   heroImg2,
   heroImg3,
+  avater1,
 };
 
 export default Assets;

@@ -10,6 +10,9 @@ const config = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      "font-sf-pro": ["SF Pro Display", "sans-serif"],
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -17,16 +20,22 @@ const config = {
         "2xl": "1400px",
       },
     },
+
     extend: {
       backgroundImage: {
         parle: 'url("/bg-pattern.svg")',
+        pattern: 'url("/assets/images/footer-pattern.svg")',
       },
       colors: {
         lightText1: "#636363",
         purple1: "#3F4E93",
         purple1Light: "#3F4E9399",
         purple15: "#3F4E9326",
+        lightText2: "#1A1A1A",
+        grey60: "#1A1A1A99",
         red1: "#A0302C",
+        lightText3: "#E4DDDD",
+        lightText4: "#514F6E",
         background: "var(--background)",
         foreground: "var(--foreground)",
         border: "hsl(var(--border))",

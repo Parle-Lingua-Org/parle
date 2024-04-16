@@ -66,7 +66,7 @@ const Header = () => {
         <div className="mt-2" />
         <BookASessionButton />
         <div className="mt-10" />
-        <div className={"header__stats"}>
+        <div className="header__stats">
           <div>
             <h1>58+</h1>
             <p>Clients have successfully launched their products</p>
