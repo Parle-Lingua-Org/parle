@@ -10,7 +10,7 @@ const HomePage = () => {
     <div className="w-full relative ">
       <Header />
       <WhyUs />
-      <OurServices />
+      {/* <OurServices /> */}
       <OurResources />
       <Testimonials />
     </div>

@@ -7,6 +7,7 @@ import brand from "@/assets/images/brand.svg";
 import avater1 from "@/assets/images/avater1.svg";
 import learnWords from "@/assets/images/learn-words.png";
 import flashCards from "@/assets/images/flash-cards.png";
+import interprete from "@/assets/images/interprete.png";
 
 const Assets = {
   brand,
@@ -18,6 +19,7 @@ const Assets = {
   avater1,
   learnWords,
   flashCards,
+  interprete,
 };
 
 export default Assets;
