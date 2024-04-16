@@ -115,4 +115,20 @@
       }
     }
   }
+
+  .header__stats {
+    @apply w-full flex justify-evenly rounded-[32px] bg-purple1;
+
+    div {
+      @apply flex flex-col gap-5 justify-center items-center;
+
+      h1 {
+        @apply font-sf-pro font-semibold text-2xl;
+      }
+
+      p {
+        @apply leading-[24px] text-base text-white;
+      }
+    }
+  }
 }

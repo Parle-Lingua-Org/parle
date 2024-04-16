@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import CountryDropDownIcon from "../icons";
+import { Button } from "../ui/button";
+import { BookASessionButton } from "../Buttons";
 
 const Navbar = () => {
   const links = [
@@ -53,9 +55,7 @@ const Navbar = () => {
 
       <div className="flex items-end">
         {/* <CountryDropDownIcon /> */}
-        <button className="bg-red1 rounded-[100px] px-7 h-[50px] text-white font-bold text-xl shadow-sm shadow-purple15 scale-fast">
-          Book A Session
-        </button>
+        <BookASessionButton />
       </div>
     </div>
   );
