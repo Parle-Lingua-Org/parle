@@ -6,30 +6,33 @@ import React from "react";
 import CountryDropDownIcon from "../icons";
 import { Button } from "../ui/button";
 import { BookASessionButton } from "../Buttons";
+import { usePathname } from "next/navigation";
+
+const links = [
+  {
+    link: "/",
+    title: "Home",
+  },
+  {
+    link: "/services",
+    title: "Services",
+  },
+  {
+    link: "/about-us",
+    title: "About Us",
+  },
+  {
+    link: "/blog",
+    title: "Blog",
+  },
+  {
+    link: "/contact-us",
+    title: "Contact",
+  },
+];
 
 const Navbar = () => {
-  const links = [
-    {
-      link: "/",
-      title: "Home",
-    },
-    {
-      link: "/",
-      title: "Services",
-    },
-    {
-      link: "/",
-      title: "About Us",
-    },
-    {
-      link: "/",
-      title: "Blog",
-    },
-    {
-      link: "/",
-      title: "Contact",
-    },
-  ];
+  const pathname = usePathname();
 
   return (
     <div className="nav flex items-center justify-between container pt-8">
@@ -46,7 +49,13 @@ const Navbar = () => {
           <Link
             href={link.link}
             key={i}
-            className={`nav-link hover:hover ${i === 0 ? "active" : ""}`}
+            // className={`nav-link hover:hover ${i === 0 ? "active" : ""}`}
+            className={`
+              nav-link
+              hover:hover
+              ${pathname === link.link ? "active" : ""}
+            
+            `}
           >
             {link.title}
           </Link>
