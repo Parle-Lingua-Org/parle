@@ -38,7 +38,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="min-h-[500px] bg-primary pt-16 pb-[250px] ">
+    <div className="min-h-[500px] bg-primary pt-16 pb-[300px] ">
       <Layout className="flex flex-col items-center">
         <h1 className="h2 text-white text-center">Testimonials/Reviews</h1>
 
