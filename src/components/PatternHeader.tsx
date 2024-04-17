@@ -11,7 +11,7 @@ const PatternHeader: React.FC<PatternHeaderProps> = ({
   description,
 }) => {
   return (
-    <div className=" bg-parle bg-blend-multiply  bg-no-repeat bg-cover bg-top ">
+    <div className="bg-parle bg-blend-multiply  bg-no-repeat bg-cover bg-top ">
       <div className="  w-full bg-[#f5f6fa]/85 py-16 lg:py-28">
         <Layout className=" flex flex-col gap-8 jusify-center items-center bg-transparent ">
           <h1 className=" w-full text-center font-semibold text-primary text-3xl sm:text-6xl lg:text-[82px] ">

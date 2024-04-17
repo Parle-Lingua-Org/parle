@@ -7,7 +7,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div className=" flex flex-col gap-20 bg-primary py-12 ">
+    <div className=" flex flex-col pb-80 gap-20 bg-primary py-12 ">
       <Layout className=" text-white py-8 flex flex-col gap-10 ">
         <h3 className=" text-center lg:text-left text-3xl sm:text-5xl lg:text-7xl font-semibold ">
           Our <br className=" hidden lg:block " /> Lead Linguist
@@ -54,9 +54,9 @@ const AboutSection = () => {
           </div>
         </div>
       </Layout>
-      <Layout>
+      {/* <Layout>
         <BookASession />
-      </Layout>
+      </Layout> */}
     </div>
   );
 };

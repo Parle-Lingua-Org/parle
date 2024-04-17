@@ -15,7 +15,7 @@ import ContactUsFooter from "./Footer";
 
 const ContactUsSection = () => {
   return (
-    <div className=" relative bg-gradient-to-br from-[#2f52eb12] from-5% via-white via-35% to-[#2F53EB20] to-95% z-30 ">
+    <div className=" relative pb-40 bg-gradient-to-br from-[#2f52eb12] from-5% via-white via-35% to-[#2F53EB20] to-95% z-30 ">
       <Layout>
         <div className=" grid z-30 grid-cols-1 lg:grid-cols-2 max-lg:place-items-center gap-10 py-8 ">
           <div className=" flex flex-col gap-8 ">

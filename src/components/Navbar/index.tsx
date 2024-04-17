@@ -21,10 +21,10 @@ const links = [
     link: "/about-us",
     title: "About Us",
   },
-  {
-    link: "/blog",
-    title: "Blog",
-  },
+  // {
+  //   link: "/blog",
+  //   title: "Blog",
+  // },
   {
     link: "/contact-us",
     title: "Contact",

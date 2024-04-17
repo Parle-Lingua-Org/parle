@@ -1,0 +1,15 @@
+.header__stats {
+  @apply w-full flex justify-between rounded-[32px] bg-purple1 py-6 px-20;
+
+  div {
+    @apply flex flex-col gap-2 justify-center items-center flex-1;
+
+    h1 {
+      @apply font-sf-pro font-semibold text-2xl text-white;
+    }
+
+    p {
+      @apply leading-[24px] text-base text-white/70 max-w-[70%] mx-auto text-center;
+    }
+  }
+}

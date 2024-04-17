@@ -1,8 +1,8 @@
 import PatternHeader from "@/components/PatternHeader";
 import ServicesSection1 from "@/components/pages/Services/Section1";
 import ServicesSection2 from "@/components/pages/Services/Section2";
-import ServicesSection3 from "@/components/pages/Services/Section2";
-import ServicesSection4 from "@/components/pages/Services/Section2";
+import ServicesSection3 from "@/components/pages/Services/Section3";
+import ServicesSection4 from "@/components/pages/Services/Section4";
 import React from "react";
 
 const Services = () => {
