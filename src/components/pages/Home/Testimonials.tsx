@@ -40,10 +40,10 @@ const Testimonials = () => {
 
   return (
     <div className="min-h-[500px] bg-primary pt-16 pb-[300px] ">
-      <Layout className="flex flex-col items-center">
+      <Layout className="flex flex-col gap-4 items-center">
         <h1 className="h2 text-white text-center">Testimonials/Reviews</h1>
 
-        <p className="text-base text-lightText3">
+        <p className="text-base max-lg:text-center text-lightText3">
           Don’t just take our word for it. Here are a few (of many) reviews of
           Parle Lingua.
         </p>

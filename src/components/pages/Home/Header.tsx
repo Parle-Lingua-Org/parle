@@ -20,18 +20,19 @@ const Header = () => {
         />
       </div> */}
         <div className=" bg-[#f5f6fa]/85 w-full h-full ">
-          <Layout className="w-full flex h-full justify-center items-center px-10 gap-2">
-            <div className="w-[60%] flex flex-col justify-center h-full">
-              <h1 className="text-2xl sm:text-5xl lg:text-[82px] text-primary lg:leading-[5rem] font-extrabold font-sf-pro">
-                Leading Linguistic <br /> Service Provider <br /> You Can Trust
+          <Layout className="w-full flex flex-col lg:flex-row h-full justify-center items-center px-10 gap-2">
+            <div className="lg:w-[60%] flex flex-col gap-6 justify-center h-full">
+              <h1 className="text-3xl sm:text-5xl lg:text-[82px] max-lg:text-center text-primary lg:leading-[5rem] font-extrabold font-sf-pro">
+                Leading Linguistic <br className=" hidden lg:block " /> Service
+                Provider <br className=" hidden lg:block " /> You Can Trust
               </h1>
-              <p className="text-lightText1 leading-9 text-lg w-[80%]">
+              <p className="text-lightText1 leading-9 text-lg max-lg:text-center lg:w-[80%]">
                 We will carefully listen first to what your exact demands are
                 and then offer you with language solutions that perfectly fits
                 those unique preferences.
               </p>
             </div>
-            <div className="w-[40%] h-full flex flex-col justify-center items-center gap-5 relative">
+            <div className="lg:w-[40%] h-full flex flex-col justify-center items-center gap-5 relative">
               <Image
                 src={Assets.heroImg1}
                 alt="hero-image-1"
@@ -61,13 +62,13 @@ const Header = () => {
       </div>
 
       <Layout className="w-full flex flex-col h-full justify-center items-center  pb-10">
-        <div className="w-full -mt-10 relative">
+        <div className="w-full  -mt-10 relative">
           <VideoComponentMain className="w-full" />
         </div>
         <div className="mt-2" />
         <BookASessionButton />
         <div className="mt-10" />
-        <div className="header__stats">
+        <div className=" flex max-md:flex-col gap-y-4 header__stats">
           <div>
             <h1>58+</h1>
             <p>Clients have successfully launched their products</p>

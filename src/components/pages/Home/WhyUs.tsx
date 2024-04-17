@@ -39,7 +39,7 @@ different cultures and backgrounds.`,
 
   return (
     <Layout className="w-full flex flex-col h-full justify-center items-center py-10 px-10 gap-2">
-      <h1 className="max-w-[60%] text-center h2 text-purple1 font-sf-pro">
+      <h1 className="lg:max-w-[60%] text-center h2 text-purple1 font-sf-pro">
         Why You Should Choose Us
       </h1>
 
