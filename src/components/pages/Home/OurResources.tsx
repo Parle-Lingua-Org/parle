@@ -40,66 +40,67 @@ const OurResources = () => {
         />
       </div> */}
       <div className=" h-[500px] relative w-full flex items-center justify-center ">
-        <div className=" absolute z-20 w-[300px] flex justify-between left-5 ">
+        {/* <div className=" absolute z-20 w-[300px] flex justify-between left-5 ">
           <button onClick={() => swiperRef.current?.slidePrev()}>Prev</button>
           <button onClick={() => swiperRef.current?.slideNext()}>Next</button>
-        </div>
+        </div> */}
         <Swiper
-          slidesPerView={2}
+          slidesPerView={"auto"}
           spaceBetween={30}
-          // loop={true}
+          centeredSlides={true}
+          loop={true}
           pagination={{
             clickable: true,
           }}
-          // navigation={true}
+          navigation={true}
           modules={[Navigation, Pagination]}
-          onBeforeInit={(swiper) => {
-            swiperRef.current = swiper;
-          }}
+          // onBeforeInit={(swiper) => {
+          //   swiperRef.current = swiper;
+          // }}
           className="mySwiper"
         >
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-100 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-100 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 1
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-200 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-200 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 2
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-300 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-300 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 3
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-400 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-400 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 4
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-500 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-500 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 5
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-600 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-600 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 6
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-700 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-700 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 7
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-800 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-800 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 8
             </div>
           </SwiperSlide>
-          <SwiperSlide className=" !w-[300px] border border-black rounded-xl bg-amber-900 flex flex-col items-center justify-center !h-[500px] text-center ">
-            <div className="flex flex-col h-full items-center justify-center">
+          <SwiperSlide className=" !w-[300px]  border border-black rounded-xl bg-amber-900 flex flex-col items-center justify-center !h-[500px] text-center ">
+            <div className="flex  flex-col h-full items-center justify-center">
               Slide 9
             </div>
           </SwiperSlide>
