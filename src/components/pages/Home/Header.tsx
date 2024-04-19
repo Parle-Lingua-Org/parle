@@ -9,7 +9,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="w-full h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top">
+      <div className="w-full h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top mt-2">
         {/* <div className="w-full absolute top-0 left-0">
         <Image
           src={Assets.bgPattern}
@@ -19,7 +19,7 @@ const Header = () => {
           height={1000}
         />
       </div> */}
-        <div className=" bg-[#f5f6fa]/85 w-full h-full ">
+        <div className=" w-full h-full bg-[#f5f6fa]/50 pt-20 lg:pt-0">
           <Layout className="w-full flex flex-col lg:flex-row h-full justify-center items-center px-10 gap-2">
             <div className="lg:w-[60%] flex flex-col gap-6 justify-center h-full">
               <h1 className="text-3xl sm:text-5xl lg:text-[82px] max-lg:text-center text-primary lg:leading-[5rem] font-extrabold font-sf-pro">

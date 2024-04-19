@@ -15,7 +15,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={"min-h-screen bg-background bg-[#f5f6fa] antialiased"}>
+      <body className={"min-h-screen bg-background antialiased"}>
         <Navbar />
         {children}
         <Footer />
