@@ -1,4 +1,3 @@
-"use client";
 import { BookASessionButton } from "@/components/Buttons";
 import { VideoComponentMain } from "@/components/icons/VideoIcon";
 import Layout from "@/components/Layout";
@@ -9,7 +8,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="w-full h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top mt-2">
+      <div className="w-full h-[90vh] sm:h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top mt-2">
         {/* <div className="w-full absolute top-0 left-0">
         <Image
           src={Assets.bgPattern}
@@ -19,7 +18,7 @@ const Header = () => {
           height={1000}
         />
       </div> */}
-        <div className=" w-full h-full bg-[#f5f6fa]/50 pt-20 lg:pt-0">
+        <div className=" w-full h-full bg-[#f5f6fa]/50 pt-32 lg:pt-0">
           <Layout className="w-full flex flex-col lg:flex-row h-full justify-center items-center px-10 gap-2">
             <div className="lg:w-[60%] flex flex-col gap-6 justify-center h-full">
               <h1 className="text-3xl sm:text-5xl lg:text-[82px] max-lg:text-center text-primary lg:leading-[5rem] font-extrabold font-sf-pro">
@@ -36,24 +35,21 @@ const Header = () => {
               <Image
                 src={Assets.heroImg1}
                 alt="hero-image-1"
-                width={1000}
-                height={1000}
+                unoptimized
                 className="w-[80%] self-start scale-fast"
               />
 
               <Image
                 src={Assets.heroImg2}
                 alt="hero-image-2"
-                width={1000}
-                height={1000}
+                unoptimized
                 className="w-full scale-fast"
               />
 
               <Image
                 src={Assets.heroImg3}
                 alt="hero-image-3"
-                width={1000}
-                height={1000}
+                unoptimized
                 className="w-[80%] self-end scale-fast"
               />
             </div>
@@ -61,14 +57,21 @@ const Header = () => {
         </div>
       </div>
 
-      <Layout className="w-full flex flex-col h-full justify-center items-center  pb-10">
-        <div className="w-full  -mt-10 relative">
-          <VideoComponentMain className="w-full" />
+      <Layout className="relative w-full flex flex-col h-full justify-center items-center  pb-10">
+        <div className="w-full -mt-5 md:-mt-10 relative">
+          <div className="w-full max-h-[450px] sm:h-[450px] overflow-hidden rounded-[32px]">
+            <video
+              autoPlay
+              loop
+              src={"/assets/videos/capital-africa.mp4"}
+              className="object-cover w-full h-full"
+            />
+          </div>
         </div>
-        <div className="mt-2" />
+        <div className="mt-5" />
         <BookASessionButton />
         <div className="mt-10" />
-        <div className=" flex max-md:flex-col gap-y-4 header__stats">
+        <div className="flex max-md:flex-col gap-y-4 header__stats">
           <div>
             <h1>58+</h1>
             <p>Clients have successfully launched their products</p>

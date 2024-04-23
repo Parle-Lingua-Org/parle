@@ -13,6 +13,7 @@ import translation from "@/assets/images/translation.png";
 import corporate from "@/assets/images/corporate-training.png";
 import physical from "@/assets/images/physical-training.png";
 import voiceover from "@/assets/images/voiceover.png";
+import training from "@/assets/images/training-sm.png";
 
 const Assets = {
   brand,
@@ -30,6 +31,7 @@ const Assets = {
   corporate,
   physical,
   voiceover,
+  training,
 };
 
 export default Assets;
