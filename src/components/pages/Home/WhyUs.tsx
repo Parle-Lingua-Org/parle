@@ -68,9 +68,9 @@ interface IWhatWeDoCardProps {
 const WhatWeDoCard: React.FC<IWhatWeDoCardProps> = ({ title, icon, desc }) => {
   return (
     <div className="flex flex-col gap-5 p-6 bg-white rounded-[8px] scale-fast hover:shadow-sm">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 flex-shrink-0">
         {icon}
-        <h1 className="text-2xl font-medium text-lightText2 font-sf-pro">
+        <h1 className="text-base md:text-2xl font-medium text-lightText2 font-sf-pro">
           {title}
         </h1>
       </div>

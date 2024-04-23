@@ -69,7 +69,7 @@ const Navbar = () => {
       <Image
         src={Assets.brand}
         alt="brand"
-        className="w-fit "
+        className="w-fit max-sm:w-[50%]"
         width={500}
         height={1000}
       />

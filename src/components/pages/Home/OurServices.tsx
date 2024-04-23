@@ -41,12 +41,12 @@ const OurServices = () => {
     <div className="bg-primary">
       <Layout className="flex flex-col gap-[5%] items-center py-10">
         <h1 className="h2 text-center text-white pb-10">Our Services</h1>
-        <div className="flex w-full rounded-[32px] bg-white h-[400px]">
+        <div className="flex w-full rounded-[32px] bg-white h-[400px] overflow-auto">
           <div className="flex-[25%] border-r-[1px] border-grey50 flex flex-col justify-center font-sf-pro">
             {servicesData.map(({ title }, index) => (
               <div
                 key={index}
-                className={`border-r-[5px] text-lg md:text-xl font-semibold text-[#0A1F44] h-[80px] w-full flex items-center pl-[30px] md:pl-[50px] transition duration-300 cursor-pointer hover:bg-[#3F4E9333]/20 ${
+                className={`border-r-[5px] text-base md:text-xl font-semibold text-[#0A1F44] h-[60px] md:h-[80px] w-full flex items-center pl-[30px] md:pl-[50px] transition duration-300 cursor-pointer hover:bg-[#3F4E9333]/20 ${
                   currentServiceIndex === index
                     ? "bg-[#3F4E9333] border-r-[#3F4E93]"
                     : "border-r-transparent"

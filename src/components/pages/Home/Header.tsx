@@ -8,7 +8,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="w-full h-[90vh] sm:h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top mt-2">
+      <div className="w-full min-h-[80vh] h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top mt-2">
         {/* <div className="w-full absolute top-0 left-0">
         <Image
           src={Assets.bgPattern}
@@ -57,8 +57,8 @@ const Header = () => {
         </div>
       </div>
 
-      <Layout className="relative w-full flex flex-col h-full justify-center items-center  pb-10">
-        <div className="w-full -mt-5 md:-mt-10 relative">
+      <Layout className="relative w-full flex flex-col h-full justify-center items-center pb-10">
+        <div className="w-full mt-10 md:-mt-10 relative">
           <div className="w-full max-h-[450px] sm:h-[450px] overflow-hidden rounded-[32px]">
             <video
               autoPlay
