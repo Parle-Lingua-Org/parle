@@ -38,7 +38,7 @@ const OurResources = () => {
           <h1 className="h3 text-white font-sf-pro text-5xl font-semibold mt-[2px]">
             Learn Words
           </h1>
-          <p className="text-[#DDDDDD] text-md mb-5">
+          <p className="text-[#DDDDDD] text-sm md:text-base text-center mb-5">
             Learn different words in different languages.
           </p>
 
@@ -49,7 +49,7 @@ const OurResources = () => {
           <h1 className="h3 text-white font-sf-pro text-5xl font-semibold mt-[2px]">
             Flash Cards
           </h1>
-          <p className="text-[#DDDDDD] text-md mb-5">
+          <p className="text-[#DDDDDD] text-sm md:text-base text-center mb-5">
             Get our flash cards for self paced practice.
           </p>
 

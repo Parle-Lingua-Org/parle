@@ -34,8 +34,8 @@ const Footer = () => {
           <BookASession />
         </div>
 
-        <div className="w-full pt-[50%] md:pt-[30%] flex mb-10 md:gap-20 flex-col md:flex-row">
-          <div className="flex flex-row md:flex-col gap-5 flex-[30%]">
+        <div className="w-full pt-[160px] sm:pt-[200px] lg:pt-[25%] flex mb-10 md:gap-20 flex-col md:flex-row">
+          <div className="flex flex-row md:flex-col gap-5 flex-[30%] mb-5">
             <div className="flex flex-col gap-5">
               <h1 className="font-medium text-2xl uppercase">
                 PARLE LINGUA SERVICES
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex-[70%] grid gap-5 sm:gap-0 sm:grid-cols-2 lg:grid-cols-3 ">
+          <div className="flex-[70%] grid gap-5 sm:gap-0 sm:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col gap-3">
               <h1 className="text-base font-semibold">Parle Lingua</h1>
 
@@ -91,8 +91,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between border-t-[1px] border-white pt-10">
-          <h1>@ 2024 Parle Lingua Services. All Rights Reserved</h1>
+        <div className="flex flex-col sm:flex-row items-center gap-5 justify-between border-t-[1px] border-white pt-10">
+          <h1 className="text-center">
+            @ 2024 Parle Lingua Services. All Rights Reserved
+          </h1>
 
           <p className=" text-[#100F14] flex gap-4 ">
             <a target="_blank" href="http://linkedin.com">

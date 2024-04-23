@@ -23,7 +23,7 @@ export const WordsSwipper = ({ data }: { data: IWords[] }) => {
       grabCursor={true}
       modules={[Navigation, EffectCards]}
       loop={true}
-      className="mySwiper w-[80%] sm:w-[300px] h-[300px]"
+      className="mySwiper w-[80%] h-[220px] sm:w-[300px] md:h-[300px] relative"
       navigation={{
         prevEl: ".prev",
         nextEl: ".next",
@@ -35,10 +35,10 @@ export const WordsSwipper = ({ data }: { data: IWords[] }) => {
         </SwiperSlide>
       ))}
 
-      <div className="z-20 prev -left-[10%] absolute top-[30%] cursor-pointer">
+      <div className="z-20 prev -left-[13%] md:-left-[10%] absolute top-[40%] sm:top-[30%] cursor-pointer ">
         <SwiperPrevIcon />
       </div>
-      <div className="z-20 next -right-[10%] absolute top-[30%] cursor-pointer">
+      <div className="z-20 next -right-[13%] md:-right-[10%] absolute top-[40%] sm:top-[30%] cursor-pointer">
         <SwiperNextIcon />
       </div>
     </Swiper>

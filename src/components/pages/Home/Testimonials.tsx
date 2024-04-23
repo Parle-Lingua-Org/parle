@@ -39,7 +39,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="min-h-[500px] bg-primary pt-16 pb-[300px] ">
+    <div className="min-h-[500px] bg-primary pt-16 pb-[300px] w-full">
       <Layout className="flex flex-col gap-4 items-center">
         <h1 className="h2 text-white text-center">Testimonials/Reviews</h1>
 
@@ -54,10 +54,10 @@ const Testimonials = () => {
           ))}
         </div>
 
-        <div className="mt-10 flex gap-5">
+        <div className="mt-10 flex flex-wrap justify-center w-full items-center gap-5">
           <Button
             variant={"outline"}
-            className="text-white rounded-[100px] py-2.5 px-8 scale-fast"
+            className="text-white rounded-[100px] py-4 px-9 scale-fast"
           >
             Drop A Review
           </Button>

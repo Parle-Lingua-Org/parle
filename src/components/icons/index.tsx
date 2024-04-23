@@ -5,6 +5,7 @@ export const SwiperPrevIcon = () => {
     <svg
       width="70"
       height="70"
+      className="w-[40px] h-[40px] md:w-[70px] md:h-[70px]"
       viewBox="0 0 70 70"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +24,7 @@ export const SwiperNextIcon = () => {
     <svg
       width="70"
       height="70"
+      className="w-[40px] h-[40px] md:w-[70px] md:h-[70px]"
       viewBox="0 0 70 70"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
