@@ -68,6 +68,12 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @layer utilities {
   .font-dm-sans {
     font-family: "DM Sans", sans-serif;
@@ -116,6 +122,10 @@
 
 .h2 {
   @apply font-sf-pro text-[36px] md:text-[48px] lg:text-[72px] text-center font-semibold leading-[1.15];
+}
+
+.h3 {
+  @apply font-sf-pro text-[28px] md:text-[40px] lg:text-[44px] text-center font-semibold leading-[1.15];
 }
 
 .link {

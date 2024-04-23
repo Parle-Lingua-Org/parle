@@ -34,7 +34,7 @@ const Footer = () => {
           <BookASession />
         </div>
 
-        <div className="w-full pt-[30%] flex mb-10 md:gap-20 flex-col md:flex-row">
+        <div className="w-full pt-[50%] md:pt-[30%] flex mb-10 md:gap-20 flex-col md:flex-row">
           <div className="flex flex-row md:flex-col gap-5 flex-[30%]">
             <div className="flex flex-col gap-5">
               <h1 className="font-medium text-2xl uppercase">
