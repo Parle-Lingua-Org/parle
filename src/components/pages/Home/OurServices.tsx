@@ -11,15 +11,7 @@ const OurServices = () => {
   const servicesData = [
     {
       title: "Interpretation",
-      desc: `We pride ourselves on our large network of professionals
-    (linguists, translators and interpreters) all of whom have native
-    proficiency in the target languages and are highly trained in
-    their domains, giving them the edge of knowing the required
-    vernacular of the language pair. Our interpreters have thorough
-    experience in the industry and are therefore very well-versed with
-    the culture, history and belief systems of the target language,
-    enabling you to communicate well and establish a healthy and
-    professional relationship.`,
+      desc: `We pride ourselves on our large network of professionals (linguists, translators and interpreters) all of whom have native proficiency in the target languages and are highly trained in their domains, giving them the edge of knowing the required vernacular of the language pair. Our interpreters have thorough experience in the industry and are therefore very well-versed with the culture, history and belief systems of the target language, enabling you to communicate well and establish a healthy and professional relationship.`,
       image: Assets.interprete,
     },
     {
@@ -73,11 +65,11 @@ const OurServices = () => {
               {currentService.title}
             </h1>
 
-            <p className="text-grey60 text-sm md:text-base text-justify font-[300] md:leading-7">
+            <p className="text-grey60 text-sm md:text-base text-justify font-[300] md:leading-7 line-clamp-[9]">
               {currentService.desc}
             </p>
 
-            <div className="flex gap-5">
+            <div className="flex gap-3">
               <Button className="text-purple1 border-purple1 border-[1px] bg-transparent rounded-[100px] py-4 px-9 scale-fast">
                 Read More
               </Button>
