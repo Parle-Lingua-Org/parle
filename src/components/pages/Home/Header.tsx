@@ -57,7 +57,7 @@ const Header = () => {
         </div>
       </div>
 
-      <Layout className="relative w-full flex flex-col h-full justify-center items-center pb-10 -mt-5 lg:-mt-10">
+      <Layout className="relative w-full flex flex-col h-full justify-center items-center pb-10 lg:-mt-10">
         <div className="w-full max-h-[450px] sm:h-[450px] overflow-hidden rounded-[32px]">
           <video
             autoPlay
