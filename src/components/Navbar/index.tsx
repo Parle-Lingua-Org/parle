@@ -99,7 +99,7 @@ const Navbar = () => {
         <BookASessionButton />
       </div>
 
-      {isOpened && (
+      {
         <motion.ul
           ref={menuRef}
           initial={"close"}
@@ -139,7 +139,7 @@ const Navbar = () => {
             </Link>
           ))}
         </motion.ul>
-      )}
+      }
 
       <div
         className="lg:hidden"
