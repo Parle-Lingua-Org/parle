@@ -66,13 +66,15 @@ const Navbar = () => {
 
   return (
     <div className="nav relative flex items-center justify-between container pt-8 bg-[#f5f6fa]/50">
-      <Image
-        src={Assets.brand}
-        alt="brand"
-        className="w-fit max-sm:w-[50%]"
-        width={500}
-        height={1000}
-      />
+      <Link href={"/"}>
+        <Image
+          src={Assets.brand}
+          alt="brand"
+          className="w-fit max-sm:w-[50%]"
+          width={500}
+          height={1000}
+        />
+      </Link>
 
       <ul className=" hidden lg:flex gap-4 text-base items-center justify-start">
         {links.map((link, i) => (
