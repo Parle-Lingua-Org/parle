@@ -102,17 +102,21 @@ const Navbar = () => {
       {isOpened && (
         <motion.ul
           ref={menuRef}
-          initial={{
-            scale: 0,
-            opacity: 0,
-            x: "-50%",
-            y: "-50%",
-          }}
-          animate={{
-            scale: 1,
-            opacity: 1,
-            x: "-50%",
-            y: "-50%",
+          initial={"close"}
+          animate={isOpened ? "open" : "close"}
+          variants={{
+            open: {
+              scale: 1,
+              opacity: 1,
+              x: "-50%",
+              y: "-50%",
+            },
+            close: {
+              scale: 0,
+              opacity: 0,
+              x: "-50%",
+              y: "-50%",
+            },
           }}
           className="lg:hidden z-50 w-full rounded-lg max-w-[70%] top-1/2 left-1/2 fixed -translate-x-1/2 -translate-y-1/2 backdrop-blur-md bg-black/10 py-32 flex flex-col gap-4 text-base items-center justify-start"
         >
