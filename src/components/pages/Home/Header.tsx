@@ -25,7 +25,7 @@ const Header = () => {
                 Leading Linguistic <br className=" hidden lg:block " /> Service
                 Provider <br className=" hidden lg:block " /> You Can Trust
               </h1>
-              <p className="text-lightText1 sm:leading-9 text-base sm:text-lg max-lg:text-center w-[60%] lg:w-[80%]">
+              <p className="text-lightText1 sm:leading-9 text-base sm:text-lg max-lg:text-center w-[80%] sm:w-[60%] lg:w-[80%]">
                 We will carefully listen first to what your exact demands are
                 and then offer you with language solutions that perfectly fits
                 those unique preferences.
