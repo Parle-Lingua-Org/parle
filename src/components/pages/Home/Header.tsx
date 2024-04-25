@@ -57,7 +57,7 @@ const Header = () => {
         </div>
       </div>
 
-      <Layout className="relative w-[70%] mx-auto flex flex-col h-full justify-center items-center pb-10 lg:-mt-10">
+      <Layout className="relative w-full flex flex-col h-full justify-center items-center pb-10 lg:-mt-10">
         <div className="w-full max-h-[450px] sm:h-[450px] overflow-hidden rounded-[32px]">
           <video
             autoPlay
@@ -69,7 +69,7 @@ const Header = () => {
         <div className="mt-5" />
         <BookASessionButton />
         <div className="mt-10" />
-        <div className="flex max-md:flex-col gap-y-4 header__stats">
+        <div className="flex max-md:flex-col gap-y-4 header__stats w-[70%] mx-auto">
           <div>
             <h1>58+</h1>
             <p>Clients have successfully launched their products</p>
