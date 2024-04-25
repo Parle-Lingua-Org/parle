@@ -9,7 +9,7 @@ const Layout = ({
   className?: string;
 }) => {
   return (
-    <div className={twMerge(`w-full max-w-[1240px] px-4 mx-auto ${className}`)}>
+    <div className={twMerge(`w-full max-w-[1240px] px-8 mx-auto ${className}`)}>
       {children}
     </div>
   );
