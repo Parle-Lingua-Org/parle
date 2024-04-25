@@ -118,7 +118,7 @@ const Navbar = () => {
               y: "-50%",
             },
           }}
-          className="lg:hidden z-50 w-full rounded-lg max-w-[70%] top-1/2 left-1/2 fixed -translate-x-1/2 -translate-y-1/2 backdrop-blur-md bg-black/10 py-32 flex flex-col gap-4 text-base items-center justify-start"
+          className="lg:hidden z-[1000] w-full rounded-lg max-w-[70%] top-1/2 left-1/2 fixed -translate-x-1/2 -translate-y-1/2 backdrop-blur-md bg-black/10 py-32 flex flex-col gap-4 text-base items-center justify-start"
         >
           {links.map((link, i) => (
             <Link
@@ -132,7 +132,6 @@ const Navbar = () => {
               nav-link
               hover:hover
               ${pathname === link.link ? "active" : ""}
-            
             `}
             >
               {link.title}
