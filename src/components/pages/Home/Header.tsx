@@ -69,7 +69,7 @@ const Header = () => {
         <div className="mt-5" />
         <BookASessionButton />
         <div className="mt-10" />
-        <div className="flex max-md:flex-col gap-y-4 header__stats w-[70%] mx-auto">
+        <div className="flex max-md:flex-col gap-y-4 header__stats md:max-w-[70%] mx-auto">
           <div>
             <h1>58+</h1>
             <p>Clients have successfully launched their products</p>
