@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Button, ButtonProps } from "../ui/button";
+import { bookAsessionLink } from "@/constants/index.constant";
 
 export const BookASessionButton = ({ className, ...props }: ButtonProps) => (
   <a href={bookAsessionLink} target="_blank">
