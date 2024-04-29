@@ -1,5 +1,6 @@
 import BookASession from "@/components/BookASession";
 import Layout from "@/components/Layout";
+import ReadMore from "@/components/ReadMore/ReadMore";
 import { Button } from "@/components/ui/button";
 import Assets from "@/constants/assets.constant";
 import Image from "next/image";
@@ -20,24 +21,26 @@ const AboutSection = () => {
               language-based solutions, exceptional customer service support and
               superior linguistic quality.
             </p>
-            <p>
-              As the lead linguist and General Manager of Parle Lingua Services,
-              she is actively involved in guiding the company&apos;s strategic
-              direction and future business operations.
-            </p>
-            <p>
-              She is responsible for focusing on the big picture items that are
-              vital to Parle Lingua Service&apos;s overall success, such as the
-              development and maintenance of strategic alliance partnerships
-              with companies both in and outside of the professional language
-              services industry.
-            </p>
-            <p>
-              Jemima is a graduate of The Universite Lumiere, Iyon, France with
-              a Bachelor of Arts degree in Lingusitics and also an MBA in
-              international hospitality management from EAE Business School in
-              Spain.
-            </p>
+            <ReadMore>
+              <p>
+                As the lead linguist and General Manager of Parle Lingua
+                Services, she is actively involved in guiding the company&apos;s
+                strategic direction and future business operations.
+              </p>
+              <p>
+                She is responsible for focusing on the big picture items that
+                are vital to Parle Lingua Service&apos;s overall success, such
+                as the development and maintenance of strategic alliance
+                partnerships with companies both in and outside of the
+                professional language services industry.
+              </p>
+              <p>
+                Jemima is a graduate of The Universite Lumiere, Iyon, France
+                with a Bachelor of Arts degree in Lingusitics and also an MBA in
+                international hospitality management from EAE Business School in
+                Spain.
+              </p>
+            </ReadMore>
           </div>
           <div className=" flex flex-col gap-4 w-full justify-center items-center ">
             <Image

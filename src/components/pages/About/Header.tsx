@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import PatternHeader from "@/components/PatternHeader";
+import ReadMore from "@/components/ReadMore/ReadMore";
 import VideoComponent from "@/components/icons/VideoIcon";
 import React from "react";
 
@@ -18,19 +19,21 @@ const AboutHeader = () => {
                 dedicated team of language experts is committed to facilitating
                 seamless communication across cultures.
               </p>
-              <p>
-                With a focus on precision and cultural sensitivity, we offer a
-                wide range of language solutions tailored to meet the needs of
-                individuals and businesses alike. From official document
-                translation to website localization and beyond, we deliver
-                top-notch linguistic support in major Asian and European
-                languages.
-              </p>
-              <p>
-                With a proven track record of client satisfaction, Parle Lingua
-                Services is your partner in breaking language barriers and
-                expanding global outreach.
-              </p>
+              <ReadMore>
+                <p>
+                  With a focus on precision and cultural sensitivity, we offer a
+                  wide range of language solutions tailored to meet the needs of
+                  individuals and businesses alike. From official document
+                  translation to website localization and beyond, we deliver
+                  top-notch linguistic support in major Asian and European
+                  languages.
+                </p>
+                <p>
+                  With a proven track record of client satisfaction, Parle
+                  Lingua Services is your partner in breaking language barriers
+                  and expanding global outreach.
+                </p>
+              </ReadMore>
             </div>
             <div className=" bg-[#E5E7EC] flex  w-full max-w-[500px] lg:max-w-full h-64 lg:h-full justify-center items-center rounded-[32px] ">
               <VideoComponent />
