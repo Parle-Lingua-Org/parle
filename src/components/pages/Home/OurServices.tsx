@@ -61,11 +61,11 @@ const OurServices = () => {
           </div>
 
           <div className="flex-[45%] flex flex-col justify-center gap-4 px-5 py-2">
-            <h1 className="text-lightText6 text-xl font-semibold font-sf-pro">
+            <h1 className="text-lightText6 text-base sm:text-xl font-semibold font-sf-pro">
               {currentService.title}
             </h1>
 
-            <p className="text-grey60 text-sm md:text-base text-justify font-[300] md:leading-7 line-clamp-[9]">
+            <p className="text-grey60 text-xs sm:text-sm md:text-base text-justify font-[300] md:leading-7 line-clamp-[9]">
               {currentService.desc}
             </p>
 

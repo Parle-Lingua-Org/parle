@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import { ReadMoreClamp } from "@/components/ReadMore/ReadMore";
 import SpeakerIcon from "@/components/icons/SpeakerIcon";
 import Assets from "@/constants/assets.constant";
 import Image from "next/image";
@@ -7,10 +8,10 @@ import React from "react";
 const ServicesSection3 = () => {
   return (
     <div className=" relative bg-gradient-to-br from-[#2F53EB14] from-5% via-white to-[#2F53EB14] to-90% z-30 ">
-      <Layout className=" py-20 " >
-          <h3 className=" text-primary font-semibold text-4xl lg:text-[44.5px] ">
-            3. Language Training
-          </h3>
+      <Layout className=" py-20 ">
+        <h3 className=" text-primary font-semibold text-4xl lg:text-[44.5px] ">
+          3. Language Training
+        </h3>
         <div className=" grid py-16 grid-cols-1 max-lg:justify-items-center lg:grid-cols-2 gap-8 gap-y-20 ">
           <div className=" flex flex-col md:gap-10 lg:gap-16 ">
             <div className=" flex flex-col justify-center items-center gap-8 ">
@@ -26,8 +27,8 @@ const ServicesSection3 = () => {
               <h3 className=" text-primary font-semibold text-xl lg:text-[27.5px] ">
                 Physical/ Online Training
               </h3>
-              <div className=" flex text-[#1A1A1A99] flex-col gap-4 text-base lg:text-lg text-justify  ">
-                <p>
+              <div className=" flex text-[#1A1A1A99] flex-col text-base lg:text-lg text-justify">
+                <ReadMoreClamp>
                   <strong>Language Courses: </strong>Parle Lingua Services
                   offers comprehensive language acquisition programs designed to
                   foster fluency and understanding beyond mere vocabulary. Our
@@ -36,8 +37,8 @@ const ServicesSection3 = () => {
                   Whether it&apos;s mastering conversational skills or honing
                   translation abilities, our courses equip students with the
                   tools for success.
-                </p>
-                <p>
+                  <br />
+                  <br />
                   <strong>Exam-centric Courses: </strong> Prepare for
                   international language certification exams with our
                   exam-centric courses. Our comprehensive training covers TEF
@@ -45,7 +46,9 @@ const ServicesSection3 = () => {
                   Strengthen your vocabulary, sentence structuring, listening
                   skills, and overall language proficiency for success in both
                   exams and real-world communication.
-                </p>
+                </ReadMoreClamp>
+
+                {/* <p></p> */}
               </div>
             </div>
           </div>
@@ -65,7 +68,7 @@ const ServicesSection3 = () => {
                 Corporate / Group Training{" "}
               </h3>
               <div className=" flex text-[#1A1A1A99] flex-col gap-4 text-base lg:text-lg text-justify  ">
-                <p>
+                <ReadMoreClamp>
                   <strong>Industry-Specific Training:</strong> Beyond basic
                   grammar and vocabulary, our corporate language instruction
                   delves into industry-specific jargon, tailored to
@@ -73,15 +76,15 @@ const ServicesSection3 = () => {
                   precision, we equip learners to navigate their field
                   effectively. Our intensive timelines ensure efficient skill
                   acquisition.
-                </p>
-                <p>
+                  <br />
+                  <br />
                   <strong> Business Communication: </strong> Master the art of
                   effective business communication, leveraging expertise in
                   language functionality and professional application. Enhance
                   your written and spoken communication skills for seamless
                   business interactions.
-                </p>
-                <p>
+                  <br />
+                  <br />
                   <strong>Importance to Cultural Nuances: </strong> At Parle
                   Lingua, we understand the critical importance of cultural
                   nuances in international business interactions. Our services
@@ -89,7 +92,7 @@ const ServicesSection3 = () => {
                   training programs. We provide insights into acceptable norms
                   and expectations in your client&apos;s culture, empowering you
                   to build strong, professional relationships.
-                </p>
+                </ReadMoreClamp>
               </div>
             </div>
           </div>

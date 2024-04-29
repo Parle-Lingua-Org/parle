@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import ReadMore from "@/components/ReadMore/ReadMore";
 import SpeakerIcon from "@/components/icons/SpeakerIcon";
 import Assets from "@/constants/assets.constant";
 import Image from "next/image";
@@ -13,17 +14,19 @@ const ServicesSection1 = () => {
             <h3 className=" text-primary font-semibold text-4xl lg:text-[44.5px] ">
               1. Interpretation
             </h3>
-            <div className=" text-[#1A1A1A99] flex flex-col gap-4 text-base lg:text-lg text-justify w-full max-w-[745px] ">
+            <div className="text-[#1A1A1A99] flex flex-col gap-4 text-base lg:text-lg text-justify w-full max-w-[745px]">
               <p>
                 Experience exceptional interpretation services tailored to your
                 needs. Our network of native-speaking professionals ensures
                 accurate communication across various languages and industries.
               </p>
-              <p>
-                Benefit from interpreters well-versed in culture, history, and
-                specialized domains, establishing seamless connections for
-                effective communication and professional relationships.
-              </p>
+              <ReadMore>
+                <p>
+                  Benefit from interpreters well-versed in culture, history, and
+                  specialized domains, establishing seamless connections for
+                  effective communication and professional relationships.
+                </p>
+              </ReadMore>
             </div>
             <div className=" flex flex-col max-lg:items-center gap-4  ">
               <h3 className=" text-xl lg:text-[27.5px] text-primary font-semibold ">

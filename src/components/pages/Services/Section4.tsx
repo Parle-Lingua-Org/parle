@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import ReadMore from "@/components/ReadMore/ReadMore";
 import SpeakerIcon from "@/components/icons/SpeakerIcon";
 import Assets from "@/constants/assets.constant";
 import Image from "next/image";
@@ -19,12 +20,14 @@ const ServicesSection4 = () => {
                 Dubbing services with a team of skilled artists proficient in
                 multiple languages (English, French, Spanish).
               </p>
-              <p>
-                Our top-quality productions ensure your message resonates with
-                your target audience effectively. Whether for instructional or
-                institutional videos, trust us to deliver impeccable audio
-                tracks tailored to your needs.
-              </p>
+              <ReadMore>
+                <p>
+                  Our top-quality productions ensure your message resonates with
+                  your target audience effectively. Whether for instructional or
+                  institutional videos, trust us to deliver impeccable audio
+                  tracks tailored to your needs.
+                </p>
+              </ReadMore>
             </div>
             <div className=" mt-10 flex flex-col max-lg:items-center gap-4  ">
               <h3 className=" text-xl lg:text-[27.5px] text-primary font-semibold ">
