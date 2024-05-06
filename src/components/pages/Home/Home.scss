@@ -1,5 +1,5 @@
 .header__stats {
-  @apply w-full flex justify-between rounded-[32px] bg-purple1 py-8 px-20;
+  @apply w-full flex justify-between rounded-[32px] bg-purple1 py-8 px-12;
 
   div {
     @apply flex flex-col gap-2 justify-center items-center flex-1;
@@ -10,7 +10,7 @@
     }
 
     p {
-      @apply leading-[24px] text-base text-white/70 max-w-[70%] mx-auto text-center;
+      @apply xl:leading-[24px] text-sm text-white/70 max-w-[75%] mx-auto text-center line-clamp-2;
     }
   }
 }
