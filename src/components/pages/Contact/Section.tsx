@@ -70,7 +70,7 @@ const ContactUsSection = () => {
               {/* Telephone */}
               <a
                 className=" flex w-fit h-full flex-row gap-6 "
-                href="tel:+2348093881906"
+                href="tel:+2349162777004"
               >
                 <div className=" rounded-[10px] flex justify-center items-center size-14 bg-[#8862D6] ">
                   <PhoneIcon />
@@ -78,7 +78,7 @@ const ContactUsSection = () => {
                 <div className=" flex h-full justify-between gap-3 flex-col leading-none ">
                   <h3 className=" text-[#00000099] ">Phone Number</h3>
                   <p className=" text-[#100F14] font-medium text-lg ">
-                    +234 809 3881 906
+                    +234 916 2777 004
                   </p>
                 </div>
               </a>
