@@ -65,7 +65,7 @@ const Navbar = () => {
   // }, [isOpened]);
 
   return (
-    <div className="nav relative flex items-center justify-between container pt-8 bg-[#f5f6fa]/50">
+    <div className="nav relative flex items-center justify-between container pt-8 bg-[#F3F5F9]">
       <Link href={"/"}>
         <Image
           src={Assets.brand}

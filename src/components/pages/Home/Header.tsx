@@ -8,7 +8,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="w-full min-h-[80vh] lg:h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top mt-2">
+      <div className="w-full min-h-[80vh] lg:h-[80vh] bg-parle bg-blend-multiply bg-no-repeat bg-cover bg-top">
         {/* <div className="w-full absolute top-0 left-0">
         <Image
           src={Assets.bgPattern}
