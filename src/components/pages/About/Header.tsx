@@ -36,7 +36,15 @@ const AboutHeader = () => {
               </ReadMore>
             </div>
             <div className=" bg-[#E5E7EC] flex  w-full max-w-[500px] lg:max-w-full h-64 lg:h-full justify-center items-center rounded-[32px] ">
-              <VideoComponent />
+              {/* <VideoComponent /> */}
+              <div className="w-full h-full overflow-hidden rounded-[32px]">
+                <video
+                  autoPlay
+                  loop
+                  src={"/assets/videos/capital-africa.mp4"}
+                  className="object-cover w-full h-full"
+                />
+              </div>
             </div>
           </div>
         </Layout>
