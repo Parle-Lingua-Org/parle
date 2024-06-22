@@ -10,6 +10,7 @@ import { twMerge } from "tailwind-merge";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-cards";
+import Image from "next/image";
 
 interface IWords {
   color: string;
@@ -35,10 +36,10 @@ export const WordsSwipper = ({ data }: { data: IWords[] }) => {
         </SwiperSlide>
       ))}
 
-      <div className="z-20 prev -left-[13%] md:-left-[10%] absolute top-[40%] sm:top-[30%] cursor-pointer ">
+      <div className="z-20 prev -left-[13%] md:-left-[10%] absolute top-[40%] sm:top-[30%] cursor-pointer shadow-lg rounded-full">
         <SwiperPrevIcon />
       </div>
-      <div className="z-20 next -right-[13%] md:-right-[10%] absolute top-[40%] sm:top-[30%] cursor-pointer">
+      <div className="z-20 next -right-[13%] md:-right-[10%] absolute top-[40%] sm:top-[30%] cursor-pointer shadow-lg rounded-full">
         <SwiperNextIcon />
       </div>
     </Swiper>
@@ -56,7 +57,8 @@ export const LearnWordsCard: React.FC<ILearnWordsCard> = ({ data }) => {
         backgroundColor: data.color,
       }}
     >
-      <h1 className="font-sf-pro font-semibold text-sm">{data.words}</h1>
+      {/* <h1 className="font-sf-pro font-semibold text-sm">{data.words}</h1> */}
+      <Image src={data.words} alt={data.words} className="object-contain h-full w-full" width={1000} height={1000}/>
     </div>
   );
 };

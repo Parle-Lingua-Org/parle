@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import PatternHeader from "@/components/PatternHeader";
 import ReadMore from "@/components/ReadMore/ReadMore";
 import VideoComponent from "@/components/icons/VideoIcon";
+import { videoLink } from "@/constants/index.constant";
 import React from "react";
 
 const AboutHeader = () => {
@@ -41,7 +42,9 @@ const AboutHeader = () => {
                 <video
                   autoPlay
                   loop
-                  src={"/assets/videos/capital-africa.mp4"}
+
+                  // "/assets/videos/capital-africa.mp4"
+                  src={videoLink}
                   className="object-cover w-full h-full"
                 />
               </div>

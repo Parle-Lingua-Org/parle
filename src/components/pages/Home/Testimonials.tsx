@@ -3,6 +3,7 @@ import { BookASessionButton } from "@/components/Buttons";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import Assets from "@/constants/assets.constant";
+import { bookAsessionLink, dropAreviewLink } from "@/constants/index.constant";
 import Image from "next/image";
 import React from "react";
 
@@ -55,12 +56,14 @@ const Testimonials = () => {
         </div>
 
         <div className="mt-10 flex flex-wrap justify-center w-full items-center gap-5">
-          <Button
-            variant={"outline"}
-            className="text-white rounded-[100px] py-4 px-9 scale-fast"
-          >
-            Drop A Review
-          </Button>
+          <a href={dropAreviewLink}>
+            <Button
+              variant={"outline"}
+              className="text-white rounded-[100px] py-4 px-9 scale-fast"
+            >
+              Drop A Review
+            </Button>
+          </a>
           <BookASessionButton />
         </div>
       </Layout>

@@ -2,6 +2,7 @@ import { BookASessionButton } from "@/components/Buttons";
 import { VideoComponentMain } from "@/components/icons/VideoIcon";
 import Layout from "@/components/Layout";
 import Assets from "@/constants/assets.constant";
+import { videoLink } from "@/constants/index.constant";
 import Image from "next/image";
 import React from "react";
 
@@ -60,9 +61,10 @@ const Header = () => {
       <Layout className="relative w-full flex flex-col h-full justify-center items-center pb-10 lg:-mt-5">
         <div className="w-full max-h-[450px] sm:h-[450px] overflow-hidden rounded-[32px]">
           <video
-            autoPlay
+            // controls
             loop
-            src={"/assets/videos/capital-africa.mp4"}
+            autoPlay
+            src={videoLink}
             className="object-cover w-full h-full"
           />
         </div>
