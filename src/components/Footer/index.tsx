@@ -10,9 +10,9 @@ import Link from "next/link";
 const Footer = () => {
   const perleLinguaLinks = [
     { title: "Home", link: "/" },
-    { title: "Services", link: "/" },
-    { title: "About Us", link: "/" },
-    { title: "Contact Us", link: "/" },
+    { title: "Services", link: "/services" },
+    { title: "About Us", link: "/about-us" },
+    { title: "Contact Us", link: "/contact-us" },
   ];
 
   const communityLinks = [
@@ -97,18 +97,18 @@ const Footer = () => {
           </h1>
 
           <p className=" text-[#100F14] flex gap-4 ">
-            <a target="_blank" href="http://linkedin.com">
+            <a target="_blank" href="https://www.linkedin.com/company/parle-lingua-services/">
               <LinkedInSocialIcon fill="#fff" />
             </a>
-            <a target="_blank" href="http://instagram.com">
+            <a target="_blank" href="https://instagram.com/parle_lingua">
               <InstagramSocialIcon fill="#fff" />
             </a>
-            <a target="_blank" href="http://facebook.com">
+            <a target="_blank" href="https://www.facebook.com/parlelingua">
               <FacebookSocialIcon fill="#fff" />
             </a>
-            <a target="_blank" href="http://twitter.com">
+            {/* <a target="_blank" href="http://twitter.com">
               <TwitterSocialIcon fill="#fff" />
-            </a>
+            </a> */}
           </p>
         </div>
       </Layout>

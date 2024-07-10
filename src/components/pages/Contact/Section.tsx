@@ -111,18 +111,18 @@ const ContactUsSection = () => {
                 <div className=" flex h-full justify-between gap-3 flex-col leading-none ">
                   <h3 className=" text-[#00000099] ">Follow Us</h3>
                   <p className=" text-[#100F14] flex gap-4 ">
-                    <a target="_blank" href="http://linkedin.com">
+                    <a target="_blank" href="https://www.linkedin.com/company/parle-lingua-services/">
                       <LinkedInSocialIcon />
                     </a>
-                    <a target="_blank" href="http://instagram.com">
+                    <a target="_blank" href="https://instagram.com/parle_lingua">
                       <InstagramSocialIcon />
                     </a>
-                    <a target="_blank" href="http://facebook.com">
+                    <a target="_blank" href="https://www.facebook.com/parlelingua">
                       <FacebookSocialIcon />
                     </a>
-                    <a target="_blank" href="http://twitter.com">
+                    {/* <a target="_blank" href="http://twitter.com">
                       <TwitterSocialIcon />
-                    </a>
+                    </a> */}
                   </p>
                 </div>
               </div>
